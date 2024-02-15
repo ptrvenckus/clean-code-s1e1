@@ -4,7 +4,7 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,12 +13,12 @@
 .matrix-img {
   width: 100%;
 }
-.aaa .more_inf {
+.title-link {
   font-family: "fantasy", "cursive";
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .header {
     text-align: center;
   }
 }
