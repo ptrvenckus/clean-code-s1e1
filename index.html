@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="body">
-    <div class="aaa">
+    <header class="aaa">
       <img class="matrix-img" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
-      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="centered-main-page-element">
-      <p id="topSectionForAddingElementToList">
+      <h1><a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></h1>
+    </header>
+    <main class="centered-main-page-element">
+      <form class="topSectionForAddingElementToList">
         <label class="label_new-task" for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+        <fieldset class="task-row-wrapper">
           <input id="new-task" class="text-input task" type="text">
           <button class="btn">Add</button>
-        </div>
-      </p>
+        </fieldset>
+      </form>
       <h3 class="heading-3">Todo</h3>
       <ul id="incompleteTasks">
         <li class="list">
@@ -45,7 +45,9 @@
           <button class="btn delete"><img class="remove-img" src="./remove.svg" alt="remove"></button>
         </li>
       </ul>
-    </div>
-    <script src="app.js"></script>
+    </main>
+    <footer>
+      <script src="app.js"></script>
+    </footer>
   </body>
 </html>
